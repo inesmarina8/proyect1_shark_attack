@@ -1,13 +1,68 @@
-# proyect1_shark_attack
-# A cleaning needed to be done. I had to restart a couple of times due to my misunderstanding of the data in the columns
-# After cleaning the columns that had repeated data I procedeed and cleaned the rows that had missing values, specifically in the dates
-# When I was done with this, I continued to standarized the names of the columns
-# I finally filtered the dates to get the right amount of information and I filtered by date, from 1960 until the present, which returned info until at least 2020, as we can see in the first histogram.
-# After this I realized that many of the columns had similar non-null values expect from age which had the lowest non-null values 
-# Based on the columns that I have at the time I'm going to start drawing what will be my hypothesis for the next analysis: 
-    ### 1st country /area vs. species --> The region of the world determines the number of attacks
-    ### 2nd year (date) vs fatal --> Depedending on the year of the attack, the fatality of the injury variates
-    ### 3rd species vs. fatal --> The shark species determines the fatality of the attack/injury
+# SHARK ATTACK (PANDAS PROJECT IRONHACK 10/2024)
 
-# These shall be my 3 hypotheses and will be demonstrated through visualizations and comparisions. 
+_This project has the objective to deep clean a DataFrame with the peciluarity of being very messed up one._
 
+_Through this notebook it would be possible to see different methods of cleaning a DataFrame and also different visualizations that show the conclusions achieved after clearing the information obtained from the imported DataSet._
+
+_It is only possible to interpret  this DataSet in so many ways as it has been cleared out._
+
+## To begin 🚀
+
+_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+
+Mira **Deployment** para conocer como desplegar el proyecto.
+
+
+### Pre-requisitos 📋
+
+_Que cosas necesitas para instalar el software y como instalarlas_
+
+```
+Da un ejemplo
+```
+
+### Instalación 🔧
+
+_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+
+_Dí cómo será ese paso_
+
+```
+Da un ejemplo
+```
+
+_Y repite_
+
+```
+hasta finalizar
+```
+
+_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
+
+## Ejecutando las pruebas ⚙️
+
+_Explica como ejecutar las pruebas automatizadas para este sistema_
+
+### Analice las pruebas end-to-end 🔩
+
+_Explica que verifican estas pruebas y por qué_
+
+```
+Da un ejemplo
+```
+
+### Y las pruebas de estilo de codificación ⌨️
+
+_Explica que verifican estas pruebas y por qué_
+
+```
+Da un ejemplo
+```
+
+## Despliegue 📦
+
+_Agrega notas adicionales sobre como hacer deploy_
+
+## Autores ✒️
+
+_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
